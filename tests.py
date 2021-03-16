@@ -178,6 +178,5 @@ class ConversionFunctions(unittest.TestCase):
         except Exception:
             actual = "Incompatible units entered"
         self.assertEqual(expected, actual,  msg= "Exception has thrown") # **not a practical test to demonstrate
-
 if __name__ == '__main__':
     unittest.main()
