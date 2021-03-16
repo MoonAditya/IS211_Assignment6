@@ -1,4 +1,3 @@
-import conversions
 
 class ConversionNotPossibleException(Exception):
   """ raising custom ConversionNotPossible for the invalid unit conversion function  """
